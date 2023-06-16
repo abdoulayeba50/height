@@ -1,0 +1,100 @@
+/*  SECTION HEADER  */
+@media screen and (max-width: 425px) {
+    .navbar-brand img{
+        width: 200px !important;
+    }
+}
+
+/*  SECTION ABOUT  */
+@media screen and (max-width:1180px) and (min-width:820px){
+    #about .box::before{ height: 90%;}
+}
+
+@media screen and (max-width:1200px) {
+    #about .about-box .about-img img{
+        width: 136px !important;
+        height: 136px;
+    }
+    .last-circle{
+        width: 136px !important;
+        height: 136px;
+    }   
+}
+
+@media screen and (max-width:991px) {
+    #about .about-box .about-img img{
+        width: 86px !important;
+        height: 86px;
+    }
+    .last-circle{
+        width: 86px !important;
+        height: 86px;
+        font-size: 13px;
+        padding-top: 0;
+    }   
+}
+
+@media screen and (max-width:768px) {
+    #portfolio .close-icone{ width: 20px; height: 30px;}
+    #about .about-box .about-img img{
+        width: 156px !important;
+        height: 156px;
+    }
+    .last-circle{
+        width: 156px !important;
+        height: 156px;
+    }
+    #about .about-box.box-start .about-img{
+        position: static;
+    }
+    #about .about-box.box-end .about-img{
+        position: static;
+        z-index: 1;
+    }
+    #about .box::before{
+        left: 15%;
+        
+    }
+    #about .about-box{
+        gap: 20px;
+    }
+    .last-circle p{
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width:555px) {
+    #about .about-box .about-img img{
+        width: 136px !important;
+        height: 136px;
+    }
+    .last-circle{
+        width: 136px !important;
+        height: 136px;
+    }
+    #about .box::before{
+        height: 90%;   
+    }   
+}
+
+@media screen and (max-width:425px) {
+    #about .about-box .about-img img{
+        width: 86px !important;
+        height: 86px;
+    }
+    .last-circle{
+        width: 86px !important;
+        height: 86px;
+        padding-top: 7px;
+        font-size: 10px;
+    }
+    #about .box::before{
+        height: 95%;
+        left: 50px;
+        top: 2%;
+    }
+    #about .about-box{
+        align-items: flex-start !important;
+    }   
+}

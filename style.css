@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1800px;
+}
+#header .navbar .container a{
+    text-decoration: none;
+    color: #fff;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+     font-weight: 200;
+     padding-left: 10px;
+     padding-right:10px;
+}
+#header .navbar .container a:hover{
+    color: #ffc800;
+}
+
+#header .navbar .container a img{
+    border: 1.2px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+.white{
+    color: #fff;
+}
+header.Fist {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+}
+.Fist .container{
+    position: relative;
+    top: 120px;
+}
+header.Fist .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+header.Fist .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+.Fist .btn-warning {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    background: #ffc800;
+    color: #fff;
+    border-radius: 8px;
+   
+}
+
+
+
+/* Service section */
+
+#services{ 
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: white;
+    }
+#services h1{ 
+     font-size: 40px;
+     font-weight: 700; 
+     color: black; 
+     margin-bottom: 16px;
+    }
+#services span{ 
+    
+     display: inline-block;
+     font-size: 16px;
+     margin-bottom: 64px;
+     color: black;
+    }
+#services .service_bloc{ 
+     padding-right: 10px; 
+     padding-left: 10px;
+     display: flex; 
+     flex-direction: column;
+     justify-content: start; 
+     align-items: center;
+     gap: 20px;
+    }
+#services .service_bloc .circle{ 
+     width: 100px;
+     height: 100px; 
+     border-radius: 100%;
+     background: #FFC800;
+     border: none; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+    }
+#services .service_bloc h3{
+     font-size: 24px;
+    }
+#services .service_bloc p{
+     font-size: 16px;
+    }
+#services .fa-xl{
+     display: inline-block; 
+     font-size: 50px; 
+     font-weight: 700;
+ }
+
+
+
+/* portfolio section */
+#portfolio{ 
+    padding-top: 96px; 
+    padding-bottom: 96px;
+}
+#portfolio h1{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    margin-bottom: 16px; 
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio span{ 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-bottom: 64px; 
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio .portfolio_bloc{ 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+}
+#portfolio .service_bloc h4{ 
+    font-size: 24px; 
+    font-weight: 400;
+}
+#portfolio .service_bloc p{ 
+    font-size: 16px;
+}
+#portfolio .portfolio_img .image-hover{ 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%;
+}
+#portfolio .portfolio_img .image-hover a{ 
+    text-decoration: none;
+}
+#portfolio .portfolio_img .image-hover a .fa-solid{ 
+    display: none;
+}
+#portfolio .portfolio_img:hover .image-hover{ 
+    background: rgba(255, 200, 0, 0.8)
+}
+#portfolio .portfolio_img{ 
+    position: relative;
+}
+#portfolio .portfolio_img:hover .image-hover a{ 
+    display: inline-block; 
+    width: 100%; 
+    height: 100%;
+     display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: #ffff;
+}
+#portfolio .portfolio_img:hover .image-hover a .fa-solid{ 
+    display: inline-block; 
+    font-size: 70px; 
+    font-weight: 900;
+}
+#portfolio button.head-close-button{ 
+    border: none; 
+    background: none; 
+    display: inline-block;
+}
+#portfolio .modal-texte{ 
+    font-size: 16px; 
+    margin-bottom: 32px;
+}
+#portfolio ul{
+     font-size: 16px;
+    }
+#portfolio .close-icone{ 
+    width: 70px; height: 80px; 
+    display: inline-block;
+}
+#portfolio button.close-button{ 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    padding-left: 25px; 
+    padding-right: 25px;
+    background: #FFC800; 
+    color: white; 
+    font-weight: 700;   
+    font-size: 20px; 
+    border: none; border-radius: 5px;
+}
+.portfolio_footer{ 
+    padding: 20px; 
+    background: white; 
+    width: 100%;
+}
+
+
+/* About section */
+
+ #about{ 
+    padding-top: 96px; 
+    padding-bottom: 96px;
+}
+#about h1{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    margin-bottom: 16px; 
+    color: rgb(0, 0, 0);
+}
+#about span{ 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-bottom: 64px; 
+    color: rgb(0, 0, 0);
+}
+#about .about-text h1{ 
+    font-size: 22px; 
+    font-weight: 700;
+}
+#about .about-text p{ 
+    font-size: 16px; 
+    color: rgb(150, 148, 148);
+}
+#about .about-box.box-start .about-img{ 
+    position: relative; 
+    width: 100%; 
+    right: -17%;
+}
+#about .about-box.box-end .about-img{ 
+    position: relative; 
+    width: 100%; left: -16%;
+}
+#about .about-box .about-img img{ 
+    width: 156px !important; 
+    height: 156px; 
+    border: 7px solid #e9ecef !important;
+}
+#about .box::before{
+     position: absolute; 
+     content: ""; 
+     top: 10%; 
+     width: 2px; 
+     height: 80%; 
+     left: 49%;
+     background: #e9ecef;
+    }
+.last-circle{ 
+    background: #FFC800; 
+    font-size: 18px; 
+    width: 170px; 
+    height: 170px; 
+    color: #ffff;
+    font-weight: 600; 
+    z-index: 1; 
+    border: 7px solid #e9ecef !important; 
+    padding-top: 20px;
+}
+.last-circle p{
+    position: relative;
+    top: 12px;
+}
+.box{ 
+    gap: 100px !important;
+} 
+
+
+/* Section Team */
+
+#team{ 
+    padding-top: 96px; 
+    padding-bottom: 96px;}
+
+#team h1{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    margin-bottom: 16px; 
+    color: rgb(0, 0, 0);
+}
+#team span{ 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-bottom: 64px; 
+    color: rgb(0, 0, 0);
+}
+#team .team-img img{ 
+    border: 7px solid #e9ecef; 
+    max-width: 224px; 
+    max-height: 224px;
+}
+#team .team-text h1{ 
+    font-size: 22px; 
+    font-weight: 700; 
+    margin-top: 20px;
+}
+#team .team-text p{ 
+    font-size: 16px; 
+    color: rgb(150, 148, 148); 
+    margin-bottom: 20px;
+}
+#team .team-logo .circle-logo .fa-brands{ 
+    font-size: 30px;
+    cursor: pointer;
+}
+#team .team-logo .circle-logo .fa-brands:hover{
+    color: #FFC800;
+}
+#team .team-items{ 
+    margin-bottom: 48px;
+}
+
+/* logo section */
+
+.img-1{
+     width: 206px; 
+     height: 44px;
+    }
+.img-2{ 
+    height: 44px;
+    width: 118px;
+}
+.img-3{ 
+    height: 44px; 
+    width: 163px;
+}
+.img-4{ 
+    height: 44px; 
+    width: 110px;
+}
+
+
+/* Contact section */
+#contact{ 
+    padding-top: 96px; 
+    padding-bottom: 96px; 
+    background-color: #212529;
+    background-image: url('images/map-image.png'); 
+    background-position: center; 
+    background-size: cover;
+}
+#contact h1{ 
+    font-size: 40px; 
+    font-weight: 700; 
+    
+    margin-bottom: 16px; 
+    color: white;
+}
+#contact span{ 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-bottom: 64px; 
+    color: #6c757d;
+}
+#contact input, #contact textarea{ 
+    padding: 20px;
+}
+#contact input::placeholder, #contact textarea::placeholder{ 
+    color: #cfd0d1; 
+    font-weight: 700; 
+    font-size: 16px;
+}
+#contact input:focus, #contact textarea:focus{ 
+    border: 1px solid #FFC800; 
+    box-shadow: none;
+}
+#contact form button{ 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    padding-left: 25px; 
+    padding-right: 25px;
+   background: #FFC800; 
+   color: white; 
+   font-weight: 700; 
+   font-size: 20px; 
+   border: none;
+   border-radius: 5px; 
+   opacity: 0.6;
+}
+
+/* Footer section */
+#footer .footer-logo .circle-logo .fa-brands{ 
+    font-size: 30px;
+}
+#footer p, #footer span{ 
+    color: #212529; 
+    font-size: 14.4px;
+}
+.fa-brands{ 
+    cursor: pointer;
+}
+#footer span{ 
+    cursor: pointer;
+}
+
